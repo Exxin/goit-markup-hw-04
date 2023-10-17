@@ -2,28 +2,6 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-    
-    display: flex;
-    flex-direction: column;
-}
-
-img {
-    display: block;
-}
-
-.container {
-    max-width: 1158px;
-    padding-left: 15px; 
-    padding-right: 15px; 
-    margin-left: 0 auto;
-    margin-right: 0 auto;
-}
-
-main {
-    /* Прибирання розривів */
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
 }
 
 ul, ol {
@@ -41,16 +19,8 @@ ul, ol {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-
-    display: flex;
-    margin: 0 auto;
 }
 
-.weblogo,
-.studio-b {
-    flex-shrink: 0;
-    margin-right: 76px;
-}
 .container .weblogo .studio-b {
     color: #2e2f42;
 }
@@ -67,46 +37,10 @@ header nav ul li .menu-link {
     transition: color 0.3s ease;
 }
 
-.menu-link:focus,
+/* .menu-link:focus,
 .menu-link:hover {
     color:#404bbf;
-}
-
-/* Flex boxes */
-.contact-info {
-    margin-left: 332px;
-    justify-content: flex-end;
-    flex-shrink: 0;
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
-.menu-nav,
-.contact-info {
-    display: flex;
-    gap: 40px;
-    /* background-color: #2196f3; */
-}
-
-.menu-nav {
-    margin-left: 76px;
-}
-
-.head-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #e7e9fc;
-
-}
-.container {
-    display: flex;
-    align-items: center;
-}
-.navigation-second {
-    display: flex;
-    align-items: center;
-}
+} */
 
 /* Address */
 
@@ -115,15 +49,16 @@ address {
 }
 
 .menu-address {
-    text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
 }
 
-.menu-address:focus,
-.menu-address:hover {
+header .menu-link:focus,
+header .menu-link:hover, 
+header .menu-address:focus,
+header .menu-address:hover {
     color:#404bbf;
 }
 
