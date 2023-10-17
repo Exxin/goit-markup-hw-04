@@ -2,6 +2,19 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+
+main {
+    /* Прибирання розривів */
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
 }
 
 ul, ol {
@@ -10,7 +23,7 @@ ul, ol {
 
 /* Header */
 
-.navigation .weblogo {
+.navigation-first .weblogo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -21,7 +34,11 @@ ul, ol {
     text-decoration: none;
 }
 
-.navigation .weblogo .studio-b {
+.weblogo,
+.studio-b {
+    flex-shrink: 0;
+}
+.navigation-first .weblogo .studio-b {
     color: #2e2f42;
 }
 
@@ -42,6 +59,40 @@ header nav ul li .menu-link {
     color:#404bbf;
 }
 
+/* Flex boxes */
+.contact-info {
+    margin-left: 332px;
+    justify-content: flex-end;
+    flex-shrink: 0;
+}
+
+.menu-nav,
+.contact-info {
+    display: flex;
+    gap: 40px;
+    /* background-color: #2196f3; */
+}
+
+.menu-nav {
+    margin-left: 76px;
+}
+
+.head-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #2196f3; */
+}
+.navigation-first {
+    display: flex;
+    align-items: center;
+    margin-left: 156px;
+}
+.navigation-second {
+    display: flex;
+    align-items: center;
+}
+
 /* Address */
 
 address {
@@ -49,6 +100,7 @@ address {
 }
 
 .menu-address {
+    text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
