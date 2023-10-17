@@ -12,7 +12,6 @@ img {
 }
 
 .container {
-    display: flex;
     max-width: 1158px;
     padding-left: 15px; 
     padding-right: 15px; 
@@ -42,6 +41,8 @@ ul, ol {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    
+    display: flex;
 }
 
 .weblogo,
