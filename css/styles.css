@@ -41,8 +41,9 @@ ul, ol {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    
+
     display: flex;
+    margin: 0 auto;
 }
 
 .weblogo,
@@ -96,7 +97,6 @@ header nav ul li .menu-link {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #e7e9fc;
-    /* background-color: #e7e9fc; */
 }
 .navigation-first {
     display: flex;
