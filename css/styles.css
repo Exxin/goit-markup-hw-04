@@ -126,6 +126,7 @@ header .menu-link:hover {
 }
 .container.strategy {
     display: inline;
+    width: calc((100% - 3 * 24) / 4);
 }
 
 .visually-hidden {
@@ -145,6 +146,7 @@ header .menu-link:hover {
 .benefits {
     display: flex;
     gap: 24px;
+    width: calc((100% - 3 * 24) / 4);
 }
 
 .box-benefits {
