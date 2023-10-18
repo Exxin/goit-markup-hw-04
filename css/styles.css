@@ -80,9 +80,6 @@ header .menu-link:hover {
 .hero {
     background-color: #2e2f42;
     display: block;
-}
-
-.hero .container.hero{
     padding: 188px 0;
 }
 
@@ -92,6 +89,8 @@ header .menu-link:hover {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin: auto;
+    max-width: 496px;
 }
 
 .service-button {
