@@ -55,25 +55,18 @@ ul, ol {
     color: #2e2f42;
     text-decoration: none;
     transition: color 0.3s ease;
+    padding: 24px 0;
+}
+.menu-link.address {
+    font-weight: 400;
 }
 /* Address */
 address {
     font-style: normal;
 }
 
-.menu-address {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:#434455;
-    text-decoration: none;
-    padding: 24px 0;
-}
-
 header .menu-link:focus,
-header .menu-link:hover, 
-header .menu-address:focus,
-header .menu-address:hover {
+header .menu-link:hover {
     color:#404bbf;
 }
 
