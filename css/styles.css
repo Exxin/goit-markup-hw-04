@@ -145,7 +145,7 @@ header .menu-link:hover {
 }
 
 .benefits .box-benefits {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 3 * 24) / 4);
 }
 
 
