@@ -92,7 +92,6 @@ header .menu-link:hover {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    max-width: 496px;
 }
 
 .service-button {
@@ -109,6 +108,7 @@ header .menu-link:hover {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin: auto;
 }
 
 .service-button:hover,
@@ -171,18 +171,23 @@ header .menu-link:hover {
 .teams-box {
     gap: 24px;
     display: flex;
+    width: calc((100% - 72px) / 4);
+}
 
+.team-box-wrap .hero-text.team {
+    color: #2e2f42;
 }
 
 .teams {
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-.section-text-h.team {
+.teams .team-owner .section-text-h.team {
     line-height: 1.11;
     text-align: center;
+    font-size: 20px;
     margin-bottom: 8px;
 }
 
@@ -194,7 +199,7 @@ header .menu-link:hover {
     color: #2e2f42;
 }
 
-.section-text-p {
+.section-text-p.team {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -202,7 +207,7 @@ header .menu-link:hover {
     text-align: center;
 }
 
-.mark-guerrer {
+.team-owner {
     padding: 32px 0;
 }
 
