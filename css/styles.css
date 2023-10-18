@@ -124,6 +124,9 @@ header .menu-link:hover {
 .strategy {
     padding: 120px 0;
 }
+.container.strategy {
+    display: inline;
+}
 
 .visually-hidden {
     position: absolute;
@@ -144,7 +147,7 @@ header .menu-link:hover {
     gap: 24px;
 }
 
-.benefits .box-benefits {
+.box-benefits {
     width: calc((100% - 3 * 24) / 4);
 }
 
@@ -196,8 +199,8 @@ header .menu-link:hover {
     font-size: 36px;
 }
 
-.teams-box .teams {
-    width: calc((100% - 72px) / 4);
+.teams {
+    width: calc((100% - 3 * 24) / 4);
     align-items: center;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
@@ -254,8 +257,8 @@ header .menu-link:hover {
     row-gap: 48px;
 }
 
-.portfolio-list .portfolio-box {
-    width: calc((100% - 48px) / 3);
+.portfolio-box {
+    width: calc((100% -2 * 24) / 3);
 }
 
 .section-text-h.portfolio{
