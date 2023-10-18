@@ -73,6 +73,7 @@ address {
     letter-spacing: 0.02em;
     color:#434455;
     text-decoration: none;
+    padding: 24px 0;
 }
 
 header .menu-link:focus,
@@ -86,30 +87,22 @@ header .menu-address:hover {
 .contact-info {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
     /* background-color: #2196f3; */
-}
-.add-box {
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 /* Section 1(Hero) */
 
-main .container {
-    max-width: 1158px;
-    padding: 188px 0;
-}
-
 .hero {
     background-color: #2e2f42;
-    padding: 188px 0;
-    max-width: 1158px;
     display: block;
+    /* padding: 180px 0; */
 }
 
-.hero .hero-text {
+main .container.hero{
+    padding: 180px 0;
+}
+
+.hero-text {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -141,9 +134,8 @@ main .container {
 
 /* Section 2(Strategy) */
 
-.container .strategy {
-    padding-top: 120px;
-    padding-bottom: 120px;
+.container.strategy .strategy {
+    /* padding: 188px 0; */
 }
 
 .visually-hidden {
