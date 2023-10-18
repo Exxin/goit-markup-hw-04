@@ -13,12 +13,13 @@ ul, ol {
 }
 
 /* Header */
-.container { 
+.container {
+    display: flex;
     max-width: 1158px;
-    padding-left: 15px; 
+    padding-left: 15px;
     padding-right: 15px; 
     margin-left: 0 auto;
-    margin-right: 0 auto; 
+    margin-right: 0 auto;
 }
 
 .container .weblogo {
@@ -32,6 +33,12 @@ ul, ol {
     text-decoration: none;
     margin-right: 76px;
 }
+
+.navigation-second {
+    display: flex;
+    align-items: center;
+}
+
 
 .container .weblogo .studio-b {
     color: #2e2f42;
