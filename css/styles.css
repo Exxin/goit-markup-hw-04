@@ -165,17 +165,20 @@ header .menu-link:hover {
 }
 
 .container.teams {
-    
+    display: inline;
 }
-
+.teams {
+    width: calc((100% - 72px) / 4);
+}
 .teams-box {
     gap: 24px;
     display: flex;
-    width: calc((100% - 72px) / 4);
+    align-items: center;
 }
 
-.team-box-wrap .hero-text.team {
+.container.teams .hero-text.team {
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .teams {
