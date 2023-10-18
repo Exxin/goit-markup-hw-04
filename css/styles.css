@@ -22,7 +22,7 @@ ul, ol {
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px; 
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .container .weblogo {
@@ -266,11 +266,16 @@ header .menu-link:hover {
 
 /* Footer */
 
-.foot-box {
-    background-color: #2e2f42;
+.container.foot {
+    display: inline;
 }
 
-.foot-box .weblogo {
+.foot-box {
+    background-color: #2e2f42;
+    padding: 100px 0;
+}
+
+.weblogo-two {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -279,15 +284,20 @@ header .menu-link:hover {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
+    margin-left: 156px;
 }
 
-.foot-box .weblogo .studio-w {
+.studio-w {
     color: #F4F4FD;
 }
 
-.foot-box .foot-text {
+.foot-text {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
+    margin-left: 156px;
 }
 
