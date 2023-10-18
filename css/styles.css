@@ -6,6 +6,7 @@ body {
 
 img {
     display: block;
+    max-width: 100%
 }
 
 ul, ol {
@@ -124,7 +125,7 @@ header .menu-link:hover {
     padding: 120px 0;
 }
 
-.visually-hidden {
+.section-text-g.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -140,7 +141,7 @@ header .menu-link:hover {
     gap: 24px;
 }
 
-.benefits .box-benefits {
+.strategy .container.strategy .benefits .box-benefits {
     width: calc((100% - 72px) / 4);
 }
 
@@ -184,7 +185,7 @@ header .menu-link:hover {
 .teams-box {
     gap: 24px;
     display: flex;
-    align-items: center;
+
 }
 
 .container.teams .section-text-g.team {
@@ -192,7 +193,7 @@ header .menu-link:hover {
     font-size: 36px;
 }
 
-.teams-box .teams {
+.team-wrapper .container.teams .teams-box .teams {
     width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
