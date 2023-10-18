@@ -136,7 +136,7 @@ header .menu-link:hover {
     gap: 24px;
 }
 
-.box-benefits {
+.benefits .box-benefits {
     width: calc((100% - 72px) / 4);
 }
 
@@ -180,7 +180,7 @@ header .menu-link:hover {
     font-size: 36px;
 }
 
-.teams {
+.teams-box .teams {
     width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
@@ -225,12 +225,12 @@ header .menu-link:hover {
     padding-bottom: 120px;
 }
 
-.portfolio-card-section .container.portfolio .section-text-h.team {
+.portfolio-card-section .container.portfolio .hero-text.portfolio {
     line-height: 1.11;
+    color: #2e2f42;
     text-align: center;
-    font-size: 36px;
-    font-weight: 700;
     margin-bottom: 72px;
+    font-size: 36px;
 }
 
 .portfolio-list {
@@ -240,7 +240,7 @@ header .menu-link:hover {
     row-gap: 48px;
 }
 
-.portfolio-box {
+.portfolio-list .portfolio-box {
     width: calc((100% - 48px) / 3);
 }
 
