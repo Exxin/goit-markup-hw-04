@@ -141,8 +141,9 @@ header .menu-link:hover {
     gap: 24px;
 }
 
-.strategy .container.strategy .benefits .box-benefits {
-    width: calc((100% - 72px) / 4);
+.box-benefits {
+    /* width: calc((100% - 72px)/4); */
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .section-text-g {
@@ -185,7 +186,6 @@ header .menu-link:hover {
 .teams-box {
     gap: 24px;
     display: flex;
-
 }
 
 .container.teams .section-text-g.team {
@@ -194,7 +194,7 @@ header .menu-link:hover {
 }
 
 .team-wrapper .container.teams .teams-box .teams {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px)/4);
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
