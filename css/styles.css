@@ -90,20 +90,22 @@ header .menu-address:hover {
     padding-bottom: 24px;
     /* background-color: #2196f3; */
 }
+.add-box {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
 /* Section 1(Hero) */
 
 main .container {
     max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px; 
-    margin: 0 auto
+    padding: 188px 0;
 }
 
 .hero {
     background-color: #2e2f42;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding: 188px 0;
+    max-width: 1158px;
     display: block;
 }
 
