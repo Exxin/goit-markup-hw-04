@@ -13,13 +13,16 @@ ul, ol {
 }
 
 /* Header */
+.head-box {
+    border-bottom: 1px solid #e7e9fc ;
+}
+
 .container {
     display: flex;
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px; 
-    margin-left: 0 auto;
-    margin-right: 0 auto;
+    margin: 0 auto
 }
 
 .container .weblogo {
@@ -34,7 +37,7 @@ ul, ol {
     margin-right: 76px;
 }
 
-.navigation-second {
+.navigation {
     display: flex;
     align-items: center;
 }
@@ -83,6 +86,8 @@ header .menu-address:hover {
 .contact-info {
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     /* background-color: #2196f3; */
 }
 
