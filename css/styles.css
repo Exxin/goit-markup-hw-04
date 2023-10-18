@@ -144,11 +144,13 @@ header .menu-link:hover {
     gap: 24px;
 }
 
-.box-benefits {
-    width: calc((100% - 3 * 24px) / 4);
+.benefits .box-benefits {
+    /* padding: 20px;
+    margin-right: 24px; */
+    width: calc((100% - 72px) / 4);
 }
 
-.box-benefits:first-child {
+.benefits .box-benefits:first-child {
     width: calc((100% - 3 * 24px) / 4);
 }
 
