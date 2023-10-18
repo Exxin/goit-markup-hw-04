@@ -80,7 +80,7 @@ header .menu-link:hover {
 .hero {
     background-color: #2e2f42;
     display: block;
-    padding: 180px 0;
+    padding: 188px 0;
 }
 
 .container.hero{
@@ -162,17 +162,30 @@ header .menu-link:hover {
 
 .team-wrapper {
     background-color: #F4F4FD;
+    padding: 120px 0;
+}
+
+.container.teams {
+
+}
+
+.teams-box {
+    display: flex;
+    gap: 24px;
 }
 
 .teams {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
-.team-wrapper .section-text-h {
+.section-text-h.team {
     line-height: 1.11;
-    font-size: 36px;
+    font-size: 20px;
     text-transform: capitalize;
     text-align: center;
+    margin-bottom: 72px;
 }
 
 .section-text-f {
