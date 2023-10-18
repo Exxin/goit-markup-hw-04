@@ -287,7 +287,6 @@ header .menu-link:hover {
     text-decoration: none;
     display: inline-block;
     margin-bottom: 16px;
-    margin-inline-start: 156px;
 }
 
 .studio-w {
@@ -299,6 +298,5 @@ header .menu-link:hover {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin-inline-start: 156px;
 }
 
