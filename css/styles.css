@@ -83,6 +83,10 @@ header .menu-link:hover {
     padding: 188px 0;
 }
 
+.container.hero {
+    padding: 0 0 0 0;
+}
+
 .hero-text {
     font-size: 56px;
     line-height: 1.07;
@@ -91,6 +95,7 @@ header .menu-link:hover {
     color: #FFFFFF;
     margin: auto;
     max-width: 496px;
+    padding: 0 0 48px 0;
 }
 
 .service-button {
