@@ -93,8 +93,18 @@ header .menu-address:hover {
 
 /* Section 1(Hero) */
 
+main .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px; 
+    margin: 0 auto
+}
+
 .hero {
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    display: block;
 }
 
 .hero .hero-text {
@@ -103,6 +113,7 @@ header .menu-address:hover {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    max-width: 496px;
 }
 
 .service-button {
@@ -114,6 +125,11 @@ header .menu-address:hover {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .service-button:hover,
@@ -123,15 +139,41 @@ header .menu-address:hover {
 
 /* Section 2(Strategy) */
 
-.section-text-h {
+.container .strategy {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: polygon(0 0, 0 0, 0 0);
+    border: 0;
+}
+
+.container .strategy .benefits {
+    display: flex;
+    gap: 24px;
+}
+
+.container .strategy .benefits .box-benefits {
+    width: calc((100% - 72px)/4);
+}
+
+.container .strategy .benefits .box-benefits .section-text-h {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
-.section-text-p {
+.container .strategy .benefits .box-benefits .section-text-p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
