@@ -144,6 +144,7 @@ header .menu-link:hover {
 
 .benefits {
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
 }
 
@@ -192,6 +193,8 @@ header .menu-link:hover {
 .teams-box {
     gap: 24px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .container.teams .section-text-g.team {
@@ -255,6 +258,7 @@ header .menu-link:hover {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    justify-content: center;
 }
 
 .portfolio-box {
