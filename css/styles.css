@@ -11,13 +11,13 @@ body {
     gap: 24px;
     justify-content: center;
     margin-bottom: 32px;
+    flex-wrap: wrap;
 }
 
 .social-links .link {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-bottom: 32px; */
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -39,10 +39,17 @@ body {
     margin: 0 0 8px 0;
 }
 
+.icon {
+
+    width: 16px;
+    height: 16px;
+}
+
 .icon-strategy {
+    width: 60px;
+    height: 60px;
     margin: 24px 0px;
     flex-shrink: 0;
-    justify-content: center;
 }
 
 img {
@@ -131,7 +138,7 @@ ol {
     position: relative;
 }
   
-.menu-link.link::after {
+.menu-link.link::before {
     width: 0;
     height: 0;
     background-color: #404bbf;
@@ -143,7 +150,7 @@ ol {
     border-radius: 2px;
 }
 
-.menu-link.link:hover::after {
+.menu-link.link:hover::before {
     width: 100%;
     height: 4px;
 }
@@ -360,7 +367,7 @@ header .menu-link:hover {
     position: relative;
 }
 
-.portfolio-box::after {
+.portfolio-box::before {
     width: 0;
     height: 0;
     content: "";
@@ -370,13 +377,15 @@ header .menu-link:hover {
     border-radius: 2px;
 }
 
-.portfolio-box:hover::after {
+.portfolio-box:hover::before {
+    content: "14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App";
     width: 100%;
     height: 301px;
     background-color: #404bbf;
-    content: "14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App";
     color: #F4F4FD;
     display: flex;
+    text-align: left;
+    padding: 40px 32px; 
 }
 
 .section-text-h.portfolio{
