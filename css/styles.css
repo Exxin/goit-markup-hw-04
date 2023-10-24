@@ -22,12 +22,16 @@ body {
     height: 40px;
     border-radius: 50%;
     background-color: #4D5AE5;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-links .link:hover,
 .social-links .link:focus {
     background-color: #404BBF;
+    transform: scale(1.1);
+    box-shadow: 0px 4px 4px 0px #434455;
 }
 
 .icon-box {
@@ -42,15 +46,15 @@ body {
     height: 112px;
 }
 
-.links-box svg {
+svg {
+    width: 64px;
+    height: 64px;
+}
+
+.link svg {
     width: 16px;
     height: 16px;
     fill: #f4f4fd;
-}
-
-.box-benefits svg {
-    width: 64px;
-    height: 64px;
 }
 
 .icon-strategy {
@@ -198,7 +202,8 @@ header .menu-link:hover {
     background-size: cover;
     background-repeat: no-repeat;
     transition:
-    transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform 500ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-section:hover {
@@ -206,6 +211,7 @@ header .menu-link:hover {
     linear-gradient(rgba(46, 47, 66, 0.55),rgba(46, 47, 66, 0.55)),
     url('../images/img-hero.jpg');
     transform: scale(1.015);
+    box-shadow: 0px 4px 4px 0px #434455;
 }
 
 .container.hero {
@@ -240,6 +246,7 @@ header .menu-link:hover {
     margin: auto;
     transition:
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -247,6 +254,7 @@ header .menu-link:hover {
 .service-button:focus {
     background-color: #404BBF;
     transform: scale(1.1);
+    box-shadow: 5px 20px 20px 8px #43445575;
 }
 
 /* Section 2(Strategy) */
