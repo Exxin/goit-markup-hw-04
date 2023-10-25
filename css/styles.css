@@ -175,6 +175,7 @@ ol {
 
 /* Address */
 .address-list {
+    text-decoration: none;
     font-style: normal;
     font-weight: 400;
     color: #2e2f42;
