@@ -523,12 +523,6 @@ header .menu-link:hover {
     box-shadow: 0px 4px 4px 0px #1c7762;
 }
 
-svg.icon-foot {
-    width: 24px;
-    height: 24px;
-}
-
 .link-foot .icon-foot {
     fill: #f4f4fd;
 }
-
